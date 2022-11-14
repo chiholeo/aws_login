@@ -1,0 +1,91 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateLoginPost($filter: ModelSubscriptionLoginPostFilterInput) {
+  onCreateLoginPost(filter: $filter) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateLoginPost($filter: ModelSubscriptionLoginPostFilterInput) {
+  onUpdateLoginPost(filter: $filter) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteLoginPost($filter: ModelSubscriptionLoginPostFilterInput) {
+  onDeleteLoginPost(filter: $filter) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnCreatePLoginPost(
+  $filter: ModelSubscriptionPLoginPostFilterInput
+) {
+  onCreatePLoginPost(filter: $filter) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdatePLoginPost(
+  $filter: ModelSubscriptionPLoginPostFilterInput
+) {
+  onUpdatePLoginPost(filter: $filter) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeletePLoginPost(
+  $filter: ModelSubscriptionPLoginPostFilterInput
+) {
+  onDeletePLoginPost(filter: $filter) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

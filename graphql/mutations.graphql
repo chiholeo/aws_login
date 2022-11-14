@@ -1,0 +1,103 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateLoginPost(
+  $input: CreateLoginPostInput!
+  $condition: ModelLoginPostConditionInput
+) {
+  createLoginPost(input: $input, condition: $condition) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateLoginPost(
+  $input: UpdateLoginPostInput!
+  $condition: ModelLoginPostConditionInput
+) {
+  updateLoginPost(input: $input, condition: $condition) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteLoginPost(
+  $input: DeleteLoginPostInput!
+  $condition: ModelLoginPostConditionInput
+) {
+  deleteLoginPost(input: $input, condition: $condition) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation CreatePLoginPost(
+  $input: CreatePLoginPostInput!
+  $condition: ModelPLoginPostConditionInput
+) {
+  createPLoginPost(input: $input, condition: $condition) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdatePLoginPost(
+  $input: UpdatePLoginPostInput!
+  $condition: ModelPLoginPostConditionInput
+) {
+  updatePLoginPost(input: $input, condition: $condition) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeletePLoginPost(
+  $input: DeletePLoginPostInput!
+  $condition: ModelPLoginPostConditionInput
+) {
+  deletePLoginPost(input: $input, condition: $condition) {
+    id
+    title
+    status
+    rating
+    content
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
